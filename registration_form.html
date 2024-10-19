@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container" >
+    <div class="card">
+        <form action="#" method="post">
+            <h2>Registration Form</h2>
+
+            <div class="row">
+                <div class="col">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="col">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="col">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="col">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+            </div>
+
+            <div class="row gender">
+                <label>Gender:</label>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="other"> Other</label>
+            </div>
+
+            <div class="row">
+                <button type="submit">Submit</button>
+                <button type="submit">Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
